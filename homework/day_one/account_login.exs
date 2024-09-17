@@ -15,23 +15,7 @@ defmodule Account do
     - `{:ok}` for successful login
     - `{:error}` for unsuccessful login
 
-  ## Examples
-
-      iex> Account.login(%{type: :admin, email: "admin1@example.com", password: "adminPassword123"})
-      {:ok}
-
-      iex> Account.login(%{type: :admin, email: "admin1@example.com", password: "wrongPassword"})
-      {:error}
-
-      iex> Account.login(%{type: :guest, token: "guest1_token"})
-      {:ok}
-
-      iex> Account.login(%{type: :guest, token: "invalid_token"})
-      {:error}
-
-      iex> Account.login(%{type: :guest, token: "guest3_token"})
-      {:error}
-
+  Use pattern matching to implement the `login/1` function.
   """
     @database %{
       admin: %{
