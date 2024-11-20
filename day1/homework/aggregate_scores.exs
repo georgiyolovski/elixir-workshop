@@ -10,6 +10,7 @@ defmodule ScoreAggregator do
 
   Implement the call/1 function.
   It accepts a list of integers, and should return a map with the grouped scores.
+  Can you provide a solution with O(n) complexity?
   """
   @spec call(list(integer())) :: map()
   def call(scores) do
