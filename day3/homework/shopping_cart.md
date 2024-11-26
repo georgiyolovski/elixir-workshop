@@ -23,3 +23,5 @@ In this example, you will create a small shopping cart app, where the user can a
 ### 6. **POST /cart/checkout endpoint**
     Complete the order. The endpoint accepts an object with user details (name, address etc.) and returns a "Thank you" message (eg. "Thank you for your order, XXX. The products will be shipped to YYY). This actions should also clear the list of cart items.
 
+### *7. Add UI (MVC or LiveView) that use all of the above endpoints
+
